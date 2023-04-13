@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Curso JS</title>
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<script type="text/javascript" src="jsTiempo(10).js"></script> 
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body onload="inicio()">
+
+
+<div class=" animated bounceIn header">
+     <a  class="BotonNav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Menú ejercicios</a> 	
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">   
+  </div>
+  <div class="col-6 col-s-9">
+
+   		<form class=" animated bounceInLeft FormIngreso">
+	
+	   	<h1>Contar el tiempo</h1>
+	  	<button  id="secreto"  style="visibility:hidden;" class="Boton" onclick="ContarMilisegundos()"  >el oculto</button>
+	 </form>
+  </div>
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+     <h2>Enunciado:</h2>
+				<h3>
+						Continuando con el ejercicio anterior, sumandole los siguientes mensajes.
+					</br>*si Tardo entre 0 y 500 milisegundos :"Usted es Flash".
+					</br>*si Tardo entre 501 y 1000 milisegundos :"Bien ahí, seguí practicando".
+					</br>*si Tardo entre 1001 y 3000 milisegundos :"Tenemos los deditos duros???".
+					</br>*si Tardo mas de 3000 milisegundos :"Te quedastes dormido???".	
+				</h3>     
+    </div>
+  </div>
+</div>
+<div class="footer">
+	<p class="pFooter">Curso Introducción a la Programación</p>
+  </div>
+</body>
+</html>

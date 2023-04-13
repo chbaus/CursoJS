@@ -1,0 +1,3 @@
+function mostrar() {
+  alert("ok");
+}
