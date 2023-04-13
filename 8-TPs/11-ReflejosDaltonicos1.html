@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso JS</title>
+    <link rel="stylesheet" type="text/css" href="../estilo.css" />
+    <link rel="stylesheet" type="text/css" href="../animacion.css" />
+    <script type="text/javascript" src="11-jsReflejosDaltonicos1.js"></script>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body onload="comenzar()">
+    <div class="animated bounceIn header">
+      <center>
+        <h5>TP <strong> Ejercicio 11</strong></h5>
+      </center>
+      <a class="BotonNav" onclick="location.href='index.html'"
+        ><i class="far fa-hand-point-left"></i>Menú ejercicios</a
+      >
+    </div>
+    <div class="row">
+      <div class="col-3 col-s-3 menu"></div>
+      <div class="col-6 col-s-9">
+        <div
+          id="FormIngreso"
+          class="animated bounceInLeft"
+          class="animated bounceInLeft"
+          class="animated bounceInLeft"
+        >
+          <h1>Reflejos daltónicos</h1>
+          <input type="text" readonly id="txtColorElegido" />
+          <button
+            style="background: blue"
+            class="BotonJuego animated tada swing wobble"
+            onclick="Responder('azul')"
+          >
+            azul
+          </button>
+          <button
+            style="background: yellow"
+            class="BotonJuego animated shake swing"
+            onclick="Responder('amarillo')"
+          >
+            amarillo
+          </button>
+          <button
+            style="background: brown"
+            class="BotonJuego animated swing shake"
+            onclick="Responder('marron')"
+          >
+            marrón
+          </button>
+
+          <button
+            style="background: green"
+            class="BotonJuego animated swing shake"
+            onclick="Responder('verde')"
+          >
+            verde
+          </button>
+          <button
+            style="background: skyblue"
+            class="BotonJuego animated tada swing"
+            onclick="Responder('celeste')"
+          >
+            celeste
+          </button>
+
+          <button
+            style="background: red"
+            class="BotonJuego animated swing shake"
+            onclick="Responder('rojo')"
+          >
+            rojo
+          </button>
+          <button style="background: Pink" class="BotonJuego animated hinge">
+            Rosa
+          </button>
+        </div>
+      </div>
+      <div class="col-3 col-s-12">
+        <div class="aside animated bounceInUp">
+          <h2>Enunciado:</h2>
+          <h3>
+            En la pantalla se mostrarán 6 botones de distintos colores, al
+            comenzar el juego se mostrará el texto de un color entre los 6
+            posibles para que el jugador sepa que botón tocar. Al tocar el botón
+            correcto se informará cuanto tiempo tardo.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="pFooter">Curso Introducción a la Programación</p>
+    </div>
+  </body>
+</html>

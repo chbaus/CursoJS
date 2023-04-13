@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso JS</title>
+    <link rel="stylesheet" type="text/css" href="../estilo.css" />
+    <link rel="stylesheet" type="text/css" href="../animacion.css" />
+    <script type="text/javascript" src="01-jsFerreteFacturacion.js"></script>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="animated bounceIn header">
+      <center>
+        <h5>TP <strong> Ejercicio 1</strong></h5>
+      </center>
+      <a class="BotonNav" onclick="location.href='index.html'"
+        ><i class="far fa-hand-point-left"></i>Menú ejercicios</a
+      >
+    </div>
+    <div class="row">
+      <div class="col-3 col-s-3 menu"></div>
+      <div class="col-6 col-s-9">
+        <form class="animated bounceInLeft FormIngreso">
+          <h1>Ferrete facturación</h1>
+          <input type="text" placeholder="Ingrese Precio" id="txtPrecioUno" />
+          <input type="text" placeholder="Ingrese Precio" id="txtPrecioDos" />
+          <input
+            type="text"
+            placeholder="Ingrese Precio"
+            id="txtPrecioTres"
+          />
+          <br />
+          <a class="BotonNav" onclick="Sumar()">Sumar</a>
+          <br /><br /><br>
+          <a class="BotonNav" onclick="Promedio()">Promedio</a>
+          <br /><br /><br>
+          <a class="BotonNav" onclick="PrecioFinal()">Precio Final</a>
+        </form>
+      </div>
+      <div class="col-3 col-s-12">
+        <div class="aside animated bounceInUp">
+          <h2>Enunciado:</h2>
+          <h3>
+            1. Para el departamento de facturación:
+            <br />A. Ingresar tres precios de productos y mostrar la suma de los
+            mismos. <br />B. Ingresar tres precios de productos y mostrar el
+            promedio de los mismos. <br />C. Ingresar tres precios de productos
+            sumarlos y mostrar precio final (más IVA 21%).
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="pFooter">Curso Introducción a la Programación</p>
+    </div>
+  </body>
+</html>
